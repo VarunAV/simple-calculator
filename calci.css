@@ -1,0 +1,67 @@
+
+	box-sizing: border-box;
+	font: 20px Ariel, comic-sans;
+html {
+	background: black;
+}
+#calculator {
+	width: 325px;
+	height: 480;	
+	background: white;
+}
+.keys span.clear {
+	float: left;
+}
+.top .screen {
+	height: 200px;
+	width: 300px;
+	float: left;
+	background: white;
+	font-size: 30px;
+	line-height: 100px;
+	color: black;
+	text-align: right;
+	letter-spacing: 1px;
+}
+.keys, .top {overflow: hidden;}
+
+.keys span, .keys span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	width: 70px;
+	height: 50px;
+	background: black;
+	color: white;
+	line-height: 36px;
+	text-align: center;
+}
+.keys span.operator {
+	height:39px;
+	background: grey ;
+}
+.keys span.eval {
+	background: black;
+}
+.keys span.clear {
+	height:39px;
+	background: grey;
+}
+.keys span:hover {
+	background: "black";
+}
+.keys span.eval:hover {
+	background: "grey";
+}
+.top span.clear:hover {
+	background: "grey";
+}
+.keys span:active {
+	top: 4px;
+}
+.keys span.eval:active {
+	top: 4px;
+}
+.keys span.clear:active {
+	top: 4px;
+}
